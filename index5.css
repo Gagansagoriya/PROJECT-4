@@ -57,18 +57,19 @@ button ,a{
  letter-spacing: 0.01rem !important;
 }
 .common-title{
-    margin-bottom: 4.2rem;
+    margin-bottom: 3rem;
 }
 .common-section{
     padding: 0 0 9rem;
 }
-/* nav-bar */ 
-.nav-items{
-color: #fff;
-
+.link-hover{        
+    color: #d7bff3;
 }
-.nav-itemsna:hover{
+.link-hover:hover{
     color: var(--secondary-color);
+}
+.container a{   
+    padding: 10px;
 }
 /* hero-sec */
 
@@ -154,10 +155,7 @@ color: #fff;
 }
 
 
-/* online-mode-sec */
-.online-mode-sec{
-    padding: 6rem 0 2rem 0 !important;
-}
+
 /* <!-- testimonial-section --> */
 .fa-star{
     
@@ -226,29 +224,48 @@ color: #fff;
    margin-right: 100px;
 
 }
+.container span i{
+    width: 100px;
+    color: #29a9fd;
+}
 
 /* media-queries-sec-code */
 @media screen and(max-width :1200px) {
     .hero-img-sec{
         width: 15rem;
         border-radius: 1rem;
-    }
-}
+          }
 
-@media screen and (max-width :900px){
+}
+@media screen and (max-width :998px){
     .navbar-toggler{
         border-color: var(--secondary-color);
     }
     .navbar-toggler-icon{
         color: var(--bs-main-color);
+        background-color: #d4dee7;
     }
     h1{
         font-size: .2rem;
     }
+    h2{
+       font-size:  2.2rem;
+       line-height: 105rem;       
+
+    }
     section .common-heading{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     section .para-width{
      width: auto;
     }
+    section  .bg-color{
+        height: 800px;
+    }
+    .hero-img-section{
+        width: 15rem;
+        height: 100px;
+        border-radius: 1rem;
+          }
+    
 }
